@@ -7,7 +7,6 @@
   
   .about {
     width: 100%;
-    height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,52 +17,78 @@
   }
   
   .about h2 {
-    font-size: 80px;
-    height: 20%;
+    font-size: 64px;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .about h3 {
+    font-size: 32px;
+    height: auto;
   }
   
-  .about .description {
+  .about .flex-container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
     text-align: left;
-    /* font-size: 18px; */
+    margin-top: 20px;
   }
 
-  .about .description p {
-    width: 40vw;
-    margin-right: 2vw;
-  }
-  .about .description .image {
-    width: 40vw;
-    margin-left: 2vw;
+  .about .flex-container .flex-child {
+    flex: 1;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 35vw;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    align-items: center;
   }
 
-  .about .socials svg {
+  .about .flex-container .flex-child .image {
+    max-width: 35vw;
+  }
+
+  .about .flex-container .flex-child .socials svg {
+    flex-direction: row;
     font-size: 60px;
     margin: 5px;
     color:#502e7e;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .about .flex-container .flex-child .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+ /* Make socials buttons change color when hovered and ease into color transition*/
+  .about .flex-container .flex-child .socials svg:hover {
+    color: #a157e7;
+    transition: color 0.3s ease;
+  }
+
+  /* And make the color change ease back when not hovering anymore */
+  .about .flex-container .flex-child .socials svg:not(:hover) {
+    color: #502e7e;
+    transition: color 0.3s ease;
   }
   
   @media only screen and (max-width: 600px) {
-    .about h2 {
-      font-size: 40px;
-    }
-  
-    .about .description {
-      margin-top: 10px;
-      font-size: 20px;
-      width: 80%;
-    }
-  
-    .skills {
-      text-align: center;
-    }
-    .list {
-      padding: 0;
-    }
-  
-    .skills h2 {
-      font-size: 30px;
-    }
+    .about .flex-container {
+      flex-direction: column; /* Stack flex items vertically */
   }
+  
+    .about .flex-container .flex-child {
+      margin-right: 0; /* Remove margin between text and image */
+      width: 80vw;
+  }
+    .about .flex-container .flex-child .image {
+      max-width: 80vw;
+  }
+}
