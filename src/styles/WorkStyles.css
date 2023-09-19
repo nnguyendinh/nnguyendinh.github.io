@@ -1,0 +1,87 @@
+.work {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff1e4;
+    color: #502e7e;
+    text-align:justify;
+    font-size: 20px;
+}
+
+.work h2 {
+    font-size: 48px;
+    height: auto;
+    margin-top: 40px;
+}
+
+.work h3 {
+    font-size: 32px;
+    height: auto;
+}
+
+.work .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 25px;
+}
+
+/* If flex-container id is northrop, text-align=right*/
+.work #right {
+    text-align: right;
+}
+
+.work #left {
+    text-align: left;
+}
+
+.work .flex-container .flex-child {
+    flex: 1;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 33vw;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.work .flex-container .flex-child .image {
+    max-width: 33vw;
+}
+
+.work .flex-container .flex-child p {
+    margin-top: 10px;
+}
+
+.work .flex-container .flex-child ul {
+    margin-top: 10px;
+    text-align: justify;
+    list-style-type: square;
+}
+
+@media only screen and (max-width: 960px) {
+    .work .flex-container {
+        flex-direction: column; /* Stack flex items vertically */
+    }
+
+    .work #right {
+        flex-direction: column-reverse;
+        text-align: left;
+    }
+  
+    .work .flex-container .flex-child {
+        margin-right: 0; /* Remove margin between text and image */
+        margin-left: 0;
+        width: 80vw;
+    }
+
+    .work .flex-container .flex-child ul {
+        text-align: justify;
+    }
+    .work .flex-container .flex-child .image {
+        max-width: 80vw;
+    }
+}
