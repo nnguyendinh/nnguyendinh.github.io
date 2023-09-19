@@ -14,8 +14,9 @@ class Home extends Component {
     {
       return (
         <div className="home"> 
+
             <div className="about">
-                <h2> Nathan Nguyendinh</h2>
+                <h2> Hi! I'm Nathan Nguyendinh</h2>
                 <div className="flex-container" id="about-me">
                     <div className="flex-child">
                         <h3> About Me </h3>
@@ -56,24 +57,6 @@ class Home extends Component {
                     <div className="flex-child">
                         <img src={teaching} alt="Teaching" className="image"/>
                     </div>
-                </div>
-            </div>
-            <h2> Work Experience</h2>
-            <div className="flex-container" id="work-experience">
-                <div className="flex-child">
-                    <h3>UCLA IEEE</h3>
-                    <p> <b>President</b> <br/>
-                        <i>June 2021 - Present</i> <br/>
-                        <ul>
-                            <li>Lead the largest student organization at UCLA with over 1000 members</li>
-                            <li>Manage a team of 20 officers and 100 volunteers</li>
-                            <li>Organize and host events for students to learn about the field of electrical engineering</li>
-                        </ul>
-                    </p>
-                </div>
-
-                <div className="flex-child">
-                        <img src={teaching} alt="Teaching" className="image"/>
                 </div>
             </div>
         </div>
