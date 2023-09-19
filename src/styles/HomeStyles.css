@@ -23,10 +23,23 @@
   }
   
   .about .description {
-    width: 60%;
-    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    /* font-size: 18px; */
   }
-  .description svg {
+
+  .about .description p {
+    width: 40vw;
+    margin-right: 2vw;
+  }
+  .about .description .image {
+    width: 40vw;
+    margin-left: 2vw;
+  }
+
+  .about .socials svg {
     font-size: 60px;
     margin: 5px;
     color:#502e7e;
