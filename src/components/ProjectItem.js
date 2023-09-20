@@ -1,11 +1,10 @@
 import React from "react";
-// import "./ProjectItem.css";
 
 function ProjectItem({image, name}) {
     return (
-        <div className="project-item">
-            <img src={image} alt={name} />
-            <h1>{name}</h1>
+        <div className="projectItem">
+            <img src={image} alt="Teaching" className="image"/>
+            <div className="projectTitle"> {name} </div>
         </div>
     );
 }
