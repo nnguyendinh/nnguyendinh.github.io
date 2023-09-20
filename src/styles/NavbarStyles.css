@@ -33,6 +33,7 @@ nav{
 
 #navbar li a:hover{
     color: #a157e7;
+    cursor: pointer;
 }
 
 #navbar li a:hover::after{
