@@ -1,5 +1,6 @@
 import React from 'react'
 import { Component } from 'react'
+import { Link } from 'react-scroll'
 import '../styles/NavbarStyles.css'
 
 class Navbar extends Component {
@@ -16,10 +17,39 @@ class Navbar extends Component {
         </a>
         <div>
           <ul id="navbar" className={this.state.clicked ? "#navbar active" : "navbar"}>
-            <li> <a href="index.html">Home</a> </li>
-            <li> <a href="about.html">About</a> </li>
-            <li> <a href="projects.html">Projects</a> </li>
-            <li> <a href="contact.html">Contact</a> </li>
+            <li> 
+              <Link
+                to='home'
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Home
+              </Link> 
+            </li>
+            <li> 
+              <Link
+                to='work'
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Work
+              </Link> 
+            </li>
+            <li> 
+              <Link
+                to='projects'
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Projects
+              </Link> 
+            </li>
           </ul>
         </div>
         <div id="mobile" onClick={this.handleClick}>
