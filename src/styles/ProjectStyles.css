@@ -1,0 +1,38 @@
+.projectDisplay {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff1e4;
+    color: #502e7e;
+    padding-top: 70px;
+  }
+  
+  .projectDisplay h1 {
+    font-size: 64px;
+    margin-top: 20px;
+  }
+  .projectDisplay img {
+    width: 50vw;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .projectDisplay h3 {
+    font-size: 40px;
+    width: 70vw;
+    margin-top: 20px;
+  }
+
+  .projectDisplay p {
+    font-size: 20px;
+    width: 70vw;
+    margin-top: 20px;
+  }
+  
+  .projectDisplay svg {
+    font-size: 60px;
+    color: #3e497a;
+  }
