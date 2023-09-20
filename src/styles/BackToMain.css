@@ -1,0 +1,26 @@
+.backToMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #502e7e;
+    color: #fff1e4;
+    padding: 20px 80px;
+    box-shadow: 0 10px 20px rgba(23, 9, 26, 0.1);
+}
+
+.backToMain p{
+    color: #fff1e4;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.backToMain p:hover{
+    color: #a157e7;
+    cursor: pointer;
+}

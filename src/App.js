@@ -1,19 +1,21 @@
 import React from "react";
-import "./styles.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Home from "./components/Home";
-import Work from "./components/Work";
-import Projects from "./components/Projects";
+import Main from "./components/Main";
+import Micromouse from "./components/Micromouse";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-export default function App() {
+import "./styles.css";
+
+function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Home/>
-      <Work/>
-      <Projects/>
-      <Footer/>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/micromouse" element={<Micromouse />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
+
+export default App;
