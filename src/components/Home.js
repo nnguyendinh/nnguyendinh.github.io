@@ -10,9 +10,7 @@ import DescriptionIcon from '@mui/icons-material/Description';
 function Home () {
 
     return (
-    <div className="home"> 
-
-        <div className="about">
+        <div className="home">
             <h2> Hi! I'm Nathan Nguyendinh</h2>
             <div className="flex-container" id="about-me">
                 <div className="flex-child">
@@ -56,7 +54,6 @@ function Home () {
                 </div>
             </div>
         </div>
-    </div>
     );
 }
   

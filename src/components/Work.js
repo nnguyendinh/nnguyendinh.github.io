@@ -1,8 +1,9 @@
 import React from "react";
 import "../styles/WorkStyles.css";
 
-import teaching from "../images/teaching.jpg";
+import northrop from "../images/northrop.webp";
 import edg from "../images/edg.png";
+import outreach from "../images/outreach_blur2.png";
 
 function Work () {
 
@@ -11,7 +12,7 @@ function Work () {
         <h2> Work Experience</h2>
         <div className="flex-container" id="right">
             <div className="flex-child">
-                <img src={teaching} alt="Teaching" className="image"/>
+                <img src={northrop} alt="Space" className="image"/>
             </div>
             <div className="flex-child">
                 <h3>Northrop Grumman Corporation</h3>
@@ -53,7 +54,7 @@ function Work () {
                 </p>
             </div>
             <div className="flex-child">
-                <img src={teaching} alt="Teaching" className="image"/>
+                <img src={outreach} alt="Teaching" className="image"/>
             </div>
         </div>
 

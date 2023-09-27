@@ -6,7 +6,7 @@
     align-items: center;
     color: #fff1e4;
     background-color: #502e7e;
-    text-align:justify;
+    text-align: left;
     font-size: 20px;
     padding-bottom: 30px;
 }
@@ -65,8 +65,12 @@
 
 .work .flex-container .flex-child ul {
     margin-top: 10px;
-    text-align: justify;
+    text-align: left;
     list-style-type: square;
+}
+
+.work .flex-container .flex-child li {
+    margin-top: 10px;
 }
 
 @media only screen and (max-width: 960px) {

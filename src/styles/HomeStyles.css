@@ -1,14 +1,5 @@
 .home {
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    color: #182e91;
-    padding-top: 70px;
-    padding-bottom: 20px;
-  }
-  
-  .about {
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,9 +8,11 @@
     background-color: #fff1e4;
     color: #502e7e;
     font-size: 20px;
+    padding-top: 70px;
+    padding-bottom: 20px;
   }
   
-  .about h2 {
+  .home h2 {
     font-size: 64px;
     height: auto;
     margin-top: 40px;
@@ -27,19 +20,19 @@
     text-align: center;
   }
 
-  .about h3 {
+  .home h3 {
     font-size: 32px;
     height: auto;
   }
   
-  .about .flex-container {
+  .home .flex-container {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     margin-top: 20px;
   }
 
-  .about .flex-container .flex-child {
+  .home .flex-container .flex-child {
     flex: 1;
     margin-left: 1vw;
     margin-right: 1vw;
@@ -50,7 +43,7 @@
     align-items: center;
   }
 
-  .about .flex-container .flex-child .image {
+  .home .flex-container .flex-child .image {
     max-width: 35vw;
     border-radius: 15px;
     /* Add a visible white border around the image */
@@ -58,7 +51,7 @@
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .about .flex-container .flex-child .socials svg {
+  .home .flex-container .flex-child .socials svg {
     flex-direction: row;
     font-size: 60px;
     margin: 5px;
@@ -67,7 +60,7 @@
     align-items: center;
   }
 
-  .about .flex-container .flex-child .socials {
+  .home .flex-container .flex-child .socials {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -76,39 +69,39 @@
   }
 
  /* Make socials buttons change color when hovered and ease into color transition*/
-  .about .flex-container .flex-child .socials svg:hover {
+  .home .flex-container .flex-child .socials svg:hover {
     color: #a157e7;
     transition: color 0.3s ease;
   }
 
   /* And make the color change ease back when not hovering anymore */
-  .about .flex-container .flex-child .socials svg:not(:hover) {
+  .home .flex-container .flex-child .socials svg:not(:hover) {
     color: #502e7e;
     transition: color 0.3s ease;
   }
   
   @media only screen and (max-width: 960px) {
-  .about {
+  .home {
     font-size: 16px;
   }
-  .about h2 {
+  .home h2 {
     font-size: 36px;
     margin-bottom: 5px;
   }
-  .about h3 {
+  .home h3 {
     font-size: 24px;
     height: auto;
   }
-    .about .flex-container {
+    .home .flex-container {
       flex-direction: column; /* Stack flex items vertically */
       margin-top: 0px;
   }
   
-    .about .flex-container .flex-child {
+    .home .flex-container .flex-child {
       margin-right: 0; /* Remove margin between text and image */
       width: 80vw;
   }
-    .about .flex-container .flex-child .image {
+    .home .flex-container .flex-child .image {
       max-width: 80vw;
   }
 }
