@@ -7,7 +7,7 @@ nav{
     left: 0;
     width: 100%;
     background-color: #502e7e;
-    padding: 20px 80px;
+    padding: 20px 60px;
     box-shadow: 0 10px 20px rgba(23, 9, 26, 0.1);
 }
 
@@ -15,6 +15,13 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+nav svg {
+    color: #fff1e4;
+    /* margin: 20px; */
+    font-size: 20px;
+    cursor: pointer;
 }
 
 #navbar li{
