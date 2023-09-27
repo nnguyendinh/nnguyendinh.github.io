@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/WorkStyles.css";
 
 import teaching from "../images/teaching.jpg";
+import edg from "../images/edg.png";
 
 function Work () {
 
@@ -58,7 +59,7 @@ function Work () {
 
         <div className="flex-container" id="right">
             <div className="flex-child">
-                <img src={teaching} alt="Teaching" className="image"/>
+                <img src={edg} alt="Lab IDE" className="image"/>
             </div>
             <div className="flex-child">
                 <h3>Laboratory for Embedded Machines & Ubiquitous Robots</h3>
