@@ -19,7 +19,7 @@ function Footer () {
             <a href="mailto:nnguyendinh@g.ucla.edu">
                 <EmailIcon/>
             </a>
-            <a href="https://github.com/nnguyendinh">
+            <a href="https://drive.google.com/file/d/1OqHotVsMY-AFcHkizlYwCz-JumrUTqFa/view?usp=sharing">
                 <DescriptionIcon/>
             </a>
         </div>
