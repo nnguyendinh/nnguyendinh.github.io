@@ -1,14 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e8a9b06.css",
-    "main.js": "/static/js/main.1ae0fdda.js",
+    "main.css": "/static/css/main.4f910b84.css",
+    "main.js": "/static/js/main.dc1e6475.js",
     "static/media/teaching.jpg": "/static/media/teaching.bc5eb6afd1a31baa5bca.jpg",
+    "static/media/OOP_crop.png": "/static/media/OOP_crop.f7de7f3b7585fb3446e7.png",
+    "static/media/realtime_crop.jpg": "/static/media/realtime_crop.14850e238f9fb0064ba1.jpg",
+    "static/media/guitar_crop.png": "/static/media/guitar_crop.48c594435399c6d4a018.png",
+    "static/media/competition_crop.jpg": "/static/media/competition_crop.71754f163d2bd361dd71.jpg",
+    "static/media/outreach_blur2.png": "/static/media/outreach_blur2.ff39bc29cf92ba27b1b5.png",
+    "static/media/micromouse_crop.jpg": "/static/media/micromouse_crop.0882c85a7cff91f8c639.jpg",
+    "static/media/northrop.webp": "/static/media/northrop.b0f003a03316e5cf10fd.webp",
+    "static/media/edg.png": "/static/media/edg.89dffef44d1b3b8d4568.png",
+    "static/media/PCB.png": "/static/media/PCB.f8c069a608dda7abaf05.png",
+    "static/media/bins.png": "/static/media/bins.6209436fdc45816f162b.png",
+    "static/media/dav_crop.png": "/static/media/dav_crop.70ca324881541903c6b1.png",
     "index.html": "/index.html",
-    "main.9e8a9b06.css.map": "/static/css/main.9e8a9b06.css.map",
-    "main.1ae0fdda.js.map": "/static/js/main.1ae0fdda.js.map"
+    "main.4f910b84.css.map": "/static/css/main.4f910b84.css.map",
+    "main.dc1e6475.js.map": "/static/js/main.dc1e6475.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e8a9b06.css",
-    "static/js/main.1ae0fdda.js"
+    "static/css/main.4f910b84.css",
+    "static/js/main.dc1e6475.js"
   ]
 }
