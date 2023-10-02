@@ -9,3 +9,10 @@
   text-align: center;
   background-color: #fff1e4;;
 }
+
+/*Make all <p> text into AR One Sans 500" */
+p {
+  font-family: 'AR One';
+  font-weight: 500;
+  font-size: large;
+}
