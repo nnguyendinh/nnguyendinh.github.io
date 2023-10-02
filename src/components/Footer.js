@@ -23,7 +23,7 @@ function Footer () {
                 <DescriptionIcon/>
             </a>
         </div>
-    <p> &copy; 2023 nnguyendinh.com</p>
+    <p> &copy; 2023 nnguyendinh.github.io</p>
     </div>
     );
 }
