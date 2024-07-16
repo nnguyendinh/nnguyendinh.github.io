@@ -17,9 +17,9 @@ function Projects() {
             <div className="projectList">
                 <ProjectItem image={wrap} name="Wireless RF Analog Project" id="wrap"/>
                 <ProjectItem image={micromouse} name="Micromouse" id="micromouse"/>
-                <ProjectItem image={guitar} name="FPGA Guitar Hero" id="guitar-hero"/>
-                <ProjectItem image={OOP} name="RISC-V Out of Order Processor" id="risc-v-processor"/>
                 <ProjectItem image={dav} name="Digital Audio Visualizer" id="digital-audio-visualizer"/>
+                <ProjectItem image={OOP} name="RISC-V Out of Order Processor" id="risc-v-processor"/>
+                <ProjectItem image={guitar} name="FPGA Guitar Hero" id="guitar-hero"/>
                 <ProjectItem image={bins} name="Bruin Bins" id="bruin-bins"/>
             </div>
         </div>
