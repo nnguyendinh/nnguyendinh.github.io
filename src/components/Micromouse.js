@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
+import Projects from './Projects';
 import BackToMain from './BackToMain';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import "../styles/ProjectStyles.css";
@@ -69,6 +70,7 @@ function Micromouse() {
               </div>
           </div>
       </div>
+      <Projects/>
       <Footer/>
     </div>
   );

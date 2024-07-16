@@ -1,6 +1,7 @@
 import React from 'react';
 import BackToMain from './BackToMain';
 import bins from "../images/bins.png";
+import Projects from './Projects';
 import Footer from './Footer';
 import DescriptionIcon from '@mui/icons-material/Description';
 import "../styles/ProjectStyles.css";
@@ -41,6 +42,7 @@ function Bins() {
               </div>
           </div>
       </div>
+      <Projects/>
       <Footer/>
     </div>
   );

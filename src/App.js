@@ -4,7 +4,7 @@ import Micromouse from "./components/Micromouse";
 import DAV from "./components/DAV";
 import OOP from "./components/OOP";
 import Guitar from "./components/Guitar";
-import Detector from "./components/Detector";
+import WRAP from "./components/WRAP";
 import Banos from "./components/Banos";
 import Bins from "./components/Bins";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -21,7 +21,7 @@ function App() {
           <Route path="/risc-v-processor" element={<OOP />} />
           <Route path="/bruin-bins" element={<Bins />} />
           <Route path="/guitar-hero" element={<Guitar />} />
-          <Route path="/instrument-detector" element={<Detector />} />
+          <Route path="/wrap" element={<WRAP />} />
 
         </Routes>
       </Router>

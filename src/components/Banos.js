@@ -1,6 +1,7 @@
 import React from 'react';
 import BackToMain from './BackToMain';
 import banos from "../images/bins.png";
+import Projects from './Projects';
 import Footer from './Footer';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import "../styles/ProjectStyles.css";
@@ -38,6 +39,7 @@ function Banos() {
               </div>
           </div>
       </div>
+      <Projects/>
       <Footer/>
     </div>
   );

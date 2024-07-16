@@ -1,5 +1,6 @@
 import React from 'react';
 import BackToMain from './BackToMain';
+import Projects from './Projects';
 import Footer from './Footer';
 import "../styles/ProjectStyles.css";
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -40,6 +41,7 @@ function Guitar() {
               </div>
           </div>
       </div>
+      <Projects/>
       <Footer/>
     </div>
   );

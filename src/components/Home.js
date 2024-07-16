@@ -11,7 +11,7 @@ function Home () {
 
     return (
         <div className="home">
-            <h2> Hi! I'm Nathan Nguyendinh</h2>
+            <h2> Hi! I'm Nat Nguyendinh</h2>
             <div className="flex-container" id="about-me">
                 <div className="flex-child">
                     <h3> About Me </h3>
@@ -38,13 +38,13 @@ function Home () {
                         <a href="https://github.com/nnguyendinh">
                             <GitHubIcon/>   
                         </a>
-                        <a href="https://www.linkedin.com/in/nathan-nguyendinh/">
+                        <a href="https://www.linkedin.com/in/nat-nguyendinh/">
                             <LinkedInIcon/>
                         </a>
-                        <a href="mailto:nnguyendinh@g.ucla.edu">
+                        <a href="mailto:nat.t.nguyendinh@gmail.com">
                             <EmailIcon/>
                         </a>
-                        <a href="https://drive.google.com/file/d/1OqHotVsMY-AFcHkizlYwCz-JumrUTqFa/view?usp=sharing">
+                        <a href="https://drive.google.com/file/d/1Z4oEZOkuOTBq8hWsiKRoecStzRNYn6zn/view?usp=drive_link">
                             <DescriptionIcon/>
                         </a>
                     </div>
