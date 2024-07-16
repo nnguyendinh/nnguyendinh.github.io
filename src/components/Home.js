@@ -24,7 +24,8 @@ function Home () {
                         to spread that knowledge, and I hope to continue 
                         doing both far into the future. <br/> <br/>
 
-                        Right now, I currently study Computer Engineering 
+                        Right now, I currently study Electrical and Computer 
+                        Engineering in the dual Bachelor's and Master's program
                         at the University of California, Los Angeles, where 
                         I focus on embedded systems, RTL design, signal 
                         processing, and whatever else piques my interest. 
