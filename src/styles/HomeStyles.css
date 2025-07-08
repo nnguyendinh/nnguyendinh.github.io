@@ -105,3 +105,7 @@
       max-width: 80vw;
   }
 }
+
+#about-me.flex-container {
+    gap: 3vw; /* Adjust as needed */
+}

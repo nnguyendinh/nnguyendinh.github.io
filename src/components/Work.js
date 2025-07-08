@@ -5,12 +5,33 @@ import northrop from "../images/ng-beige.png";
 import edg from "../images/edg.png";
 import keysight from "../images/keysight-beige.png";
 import syssarch from "../images/syssarch-beige.png";
+import microsoft from "../images/microsoft.png";
 
 function Work () {
 
     return (
     <div className="work"> 
         <h2> Work Experience</h2>
+        
+        <div className="flex-container" id="left">
+            <div className="flex-child">
+                <h3>Microsoft</h3>
+                <p> <b>Software for Hardware Engineering Intern</b> <br/>
+                    <i>May 2025 - August 2025</i> <br/>
+                    <ul>
+                        <li>Redesigned internal Windows crash dump analysis tools to 
+                            optimize compute utilization and processing time</li>
+                        <li>Implemented dynamic locking algorithms throughout the 
+                            tooling codebase to ensure multi-threading capability</li>
+                        <li>Decreased processing time of OS crash dump analysis by 
+                            50% through multi-threaded computational optimizations</li>
+                    </ul>
+                </p>
+            </div>
+            <div className="flex-child">
+                <img src={microsoft} alt="Microsoft" className="image"/>
+            </div>
+        </div>
         <div className="flex-container" id="right">
             <div className="flex-child">
                 <img src={keysight} alt="Keysight" className="image"/>
@@ -20,19 +41,16 @@ function Work () {
                 <p> <b>R&D Hardware Engineering Intern</b> <br/>
                     <i>June 2024 - September 2024</i> <br/>
                     <ul>
-                        <li>Implemented soft-core processor for 
-                            product’s onboard FPGAs to improve 
-                            customer firmware upload speed by 10x</li>
-                        <li>Verified PCB layouts, debugged EEPROM 
-                            functionality, and analyzed power 
-                            consumption for team’s hardware</li>
-                        <li>Automated the generation of 
-                            simulation waveforms for testing of 
-                            product’s FPGA signal processing 
-                            algorithms</li>
-                        <li>Wrote hardware SSI drivers for 
-                            onboard chips to communicate between 
-                            the product and test setup</li>
+                        <li>Developed embedded Linux firmware for advanced flash 
+                            memory management, including secure multi-image boot, 
+                            memory protection, and robust read and write operations 
+                            to ensure system reliability for end-user products</li>
+                        <li>Improved NAND flashing speed by 600% for onboard FPGAs 
+                            through custom soft-core processor solution</li>
+                        <li>Reviewed PCB layouts, verified system functionality, 
+                            and analyzed power consumption of market-level hardware</li>
+                        <li>Automated generation of SystemC simulation waveforms 
+                            for testing of FPGA signal processing algorithms</li>
                     </ul>
                 </p>
             </div>
@@ -42,15 +60,17 @@ function Work () {
             <div className="flex-child">
                 <h3>Secure Systems and Architectures Lab @ UCLA</h3>
                 <p> <b>Undergraduate Researcher</b> <br/>
-                    <i>February 2024 - Present</i> <br/>
+                    <i>February 2024 - March 2025</i> <br/>
                     <ul>
                         <li>Analyzed security and performance 
                             implications of chipletization in modern 
                             systems under PI Nader Sehatbakhsh</li>
-                        <li>Simulated chipletization of RISC-V core 
+                        <li>Simulated chipletization of RISC-V cores 
                             in gem5 and observed system performance 
                             with SPEC benchmarks</li>
-                        <li>Modeled area and power consumption of SoCs</li>
+                        <li>Automated parsing of verilog files to 
+                            extract module information and construct 
+                            architecture graphs</li>
                     </ul>
                 </p>
             </div>
@@ -73,12 +93,12 @@ function Work () {
                             communication protocol, enhancing throughput 
                             by 2x through addition of data forwarding and 
                             processing queues</li>
-                        <li>Worked with FPGA designers to document the 
-                            interfaces and design of communications 
-                            channel decoder</li>
-                        <li>Wrote 5+ Matlab scripts to assist RF 
-                            engineers in efficiently plotting and 
-                            verifying test data with unit specs</li>
+                        <li>Wrote 10+ Matlab scripts to assist RF engineers 
+                            in efficiently plotting and verifying test data 
+                            with unit specs</li>
+                        <li>Created documentation for interfaces and design 
+                            of internal communications channel decoders for 
+                            FPGA designs</li>
                     </ul>
                 </p>
             </div>

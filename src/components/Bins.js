@@ -29,7 +29,7 @@ function Bins() {
                     and Firebase.
                   </p>
                   <div className="socials">
-                        <a href="https://docs.google.com/presentation/d/156gh1YUVFKMeh2bCCBaX77PrEy65RDgocptGiHXs6Bc/edit?usp=drive_link">
+                        <a href="https://docs.google.com/presentation/d/1YEGli1kS9UJksuIp3AyJZpbd4qUiQKHC0WPS-4sNpAk/edit?usp=sharing">
                             <DescriptionIcon/>   
                         </a>
                   </div>

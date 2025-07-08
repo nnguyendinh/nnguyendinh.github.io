@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/HomeStyles.css";
 
-import teaching from "../images/teaching.jpg";
+import nat from "../images/Nat.png";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
@@ -24,34 +24,37 @@ function Home () {
                         to spread that knowledge, and I hope to continue 
                         doing both far into the future. <br/> <br/>
 
-                        Right now, I currently study Electrical and Computer 
-                        Engineering in the dual Bachelor's and Master's program
-                        at the University of California, Los Angeles, where 
-                        I focus on embedded systems, RTL design, signal 
-                        processing, and whatever else piques my interest. 
+                        I just earned my Bachelor's Degree in Computer 
+                        Engineering at the University of California, 
+                        Los Angeles, and I am starting my Master's 
+                        Degree in Electrical Engineering at the University 
+                        of Michigan, Ann Arbor this Fall 2025. 
+                        I have multi-faceted interests in embedded 
+                        systems, computer architecture, RTL design, digital 
+                        signal processing, and whatever else piques my interest. 
                         My end goal is to keep expanding my knowledge in 
                         new areas and eventually become the jack of all 
                         trades within the digital field. I am always 
                         looking for new ways to apply what I learn, so 
-                        please don’t hesitate to connect with me!
+                        please don't hesitate to connect with me!
                     </p>
                     <div className="socials">
                         <a href="https://github.com/nnguyendinh">
                             <GitHubIcon/>   
                         </a>
-                        <a href="https://www.linkedin.com/in/nat-nguyendinh/">
+                        <a href="https://www.linkedin.com/in/nnguyendinh/">
                             <LinkedInIcon/>
                         </a>
                         <a href="mailto:nat.t.nguyendinh@gmail.com">
                             <EmailIcon/>
                         </a>
-                        <a href="https://drive.google.com/file/d/1Z4oEZOkuOTBq8hWsiKRoecStzRNYn6zn/view?usp=drive_link">
+                        <a href="https://drive.google.com/file/d/1ZxrKr2Fe3vRxkOPqDMyIJ7UJE8PNYpwD/view?usp=drive_link">
                             <DescriptionIcon/>
                         </a>
                     </div>
                 </div>
                 <div className="flex-child">
-                    <img src={teaching} alt="Teaching" className="image"/>
+                    <img src={nat} alt="Nat Nguyendinh" className="image"/>
                 </div>
             </div>
         </div>

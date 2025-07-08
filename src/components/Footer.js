@@ -13,17 +13,17 @@ function Footer () {
             <a href="https://github.com/nnguyendinh">
                 <GitHubIcon/>
             </a>
-            <a href="https://www.linkedin.com/in/nat-nguyendinh/">
+            <a href="https://www.linkedin.com/in/nnguyendinh/">
                 <LinkedInIcon/>
             </a>
             <a href="mailto:nat.t.nguyendinh@gmail.com">
                 <EmailIcon/>
             </a>
-            <a href="https://drive.google.com/file/d/1Z4oEZOkuOTBq8hWsiKRoecStzRNYn6zn/view?usp=drive_link">
+            <a href="https://drive.google.com/file/d/1ZxrKr2Fe3vRxkOPqDMyIJ7UJE8PNYpwD/view?usp=drive_link">
                 <DescriptionIcon/>
             </a>
         </div>
-    <p> &copy; 2024 nnguyendinh.github.io</p>
+    <p> &copy; 2025 nnguyendinh.github.io</p>
     </div>
     );
 }
