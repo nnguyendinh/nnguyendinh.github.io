@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.36ac6c11.css",
-    "main.js": "/static/js/main.a2d11515.js",
-    "static/media/teaching.jpg": "/static/media/teaching.bc5eb6afd1a31baa5bca.jpg",
+    "main.css": "/static/css/main.cb1e975f.css",
+    "main.js": "/static/js/main.91ef7de5.js",
+    "static/media/Nat.png": "/static/media/Nat.6e01b9d5baac55e63aa3.png",
     "static/media/wrap.png": "/static/media/wrap.d854aba1368ae8cd74d5.png",
     "static/media/wrap_crop.png": "/static/media/wrap_crop.b07c4a790233507a0a05.png",
     "static/media/OOP_crop.png": "/static/media/OOP_crop.f7de7f3b7585fb3446e7.png",
@@ -17,12 +17,13 @@
     "static/media/ng-beige.png": "/static/media/ng-beige.ce5dad7498985e6f77f2.png",
     "static/media/dav_crop.png": "/static/media/dav_crop.70ca324881541903c6b1.png",
     "static/media/keysight-beige.png": "/static/media/keysight-beige.cf727ecb00d168bffc8a.png",
+    "static/media/microsoft.png": "/static/media/microsoft.ab96a833a0199e181aab.png",
     "index.html": "/index.html",
-    "main.36ac6c11.css.map": "/static/css/main.36ac6c11.css.map",
-    "main.a2d11515.js.map": "/static/js/main.a2d11515.js.map"
+    "main.cb1e975f.css.map": "/static/css/main.cb1e975f.css.map",
+    "main.91ef7de5.js.map": "/static/js/main.91ef7de5.js.map"
   },
   "entrypoints": [
-    "static/css/main.36ac6c11.css",
-    "static/js/main.a2d11515.js"
+    "static/css/main.cb1e975f.css",
+    "static/js/main.91ef7de5.js"
   ]
 }
