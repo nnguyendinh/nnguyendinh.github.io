@@ -1,11 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.cb1e975f.css",
-    "main.js": "/static/js/main.91ef7de5.js",
+    "main.js": "/static/js/main.c5abb23d.js",
     "static/media/Nat.png": "/static/media/Nat.6e01b9d5baac55e63aa3.png",
     "static/media/wrap.png": "/static/media/wrap.d854aba1368ae8cd74d5.png",
     "static/media/wrap_crop.png": "/static/media/wrap_crop.b07c4a790233507a0a05.png",
+    "static/media/adder_crop.png": "/static/media/adder_crop.b02c46f5399317bd14a3.png",
     "static/media/OOP_crop.png": "/static/media/OOP_crop.f7de7f3b7585fb3446e7.png",
+    "static/media/adder.png": "/static/media/adder.8578de5ddbc83b0732c5.png",
+    "static/media/edram_crop.png": "/static/media/edram_crop.89eeb8176c7a25c38301.png",
+    "static/media/RCHuman_crop.png": "/static/media/RCHuman_crop.d9f1519af160ae5efcc6.png",
+    "static/media/TENS.png": "/static/media/TENS.91a290349869d7124950.png",
     "static/media/waveforms.png": "/static/media/waveforms.28dc426766799a807c82.png",
     "static/media/guitar_crop.png": "/static/media/guitar_crop.48c594435399c6d4a018.png",
     "static/media/competition_crop.jpg": "/static/media/competition_crop.71754f163d2bd361dd71.jpg",
@@ -20,10 +25,10 @@
     "static/media/microsoft.png": "/static/media/microsoft.ab96a833a0199e181aab.png",
     "index.html": "/index.html",
     "main.cb1e975f.css.map": "/static/css/main.cb1e975f.css.map",
-    "main.91ef7de5.js.map": "/static/js/main.91ef7de5.js.map"
+    "main.c5abb23d.js.map": "/static/js/main.c5abb23d.js.map"
   },
   "entrypoints": [
     "static/css/main.cb1e975f.css",
-    "static/js/main.91ef7de5.js"
+    "static/js/main.c5abb23d.js"
   ]
 }
