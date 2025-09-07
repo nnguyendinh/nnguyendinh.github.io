@@ -19,12 +19,14 @@ function Work () {
                 <p> <b>Software for Hardware Engineering Intern</b> <br/>
                     <i>May 2025 - August 2025</i> <br/>
                     <ul>
-                        <li>Redesigned internal Windows crash dump analysis tools to 
-                            optimize compute utilization and processing time</li>
-                        <li>Implemented dynamic locking algorithms throughout the 
-                            tooling codebase to ensure multi-threading capability</li>
-                        <li>Decreased processing time of OS crash dump analysis by 
-                            50% through multi-threaded computational optimizations</li>
+                        <li>Redesigned internal Windows crash dump analysis tools 
+                            to optimize compute utilization and processing time</li>
+                        <li>Utilized MCP to create debugger-enabled LLM agent 
+                            capable of analyzing system hardware and diagnosing crashes</li>
+                        <li>Implemented dynamic locking algorithms throughout the tooling 
+                            codebase to enable multi-threaded execution</li>
+                        <li>Achieved 10x speedup for crash dump analysis times through 
+                            agentic automation and computational optimizations</li>
                     </ul>
                 </p>
             </div>
@@ -68,6 +70,9 @@ function Work () {
                         <li>Simulated chipletization of RISC-V cores 
                             in gem5 and observed system performance 
                             with SPEC benchmarks</li>
+                        <li>Compared accuracy of gem5 simulator and 
+                            STM32 microcontrollers running EEMBC’s 
+                            CoreMark benchmark</li>
                         <li>Automated parsing of verilog files to 
                             extract module information and construct 
                             architecture graphs</li>
