@@ -25,7 +25,7 @@ function Guitar() {
                     which was continually read during gameplay in order to properly display the correct 
                     notes. We synced the moving note blocks to correspond with the song “I’ll Make a Man 
                     Out of You”, and we showcased this project at the end of the year IEEE Projects 
-                    Showcase at UCLA.
+                    Showcase at UCLA. Linked below is the github repository with the full project files.
                   </p>
                   <div className="socials">
                         <a href="https://github.com/nnguyendinh/FPGA-Hero">

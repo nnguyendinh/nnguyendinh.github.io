@@ -24,6 +24,9 @@ function Micromouse() {
                     My freshman year, I participated in the program and learned the basics 
                     of embedded systems and PCB design. That year, my partner and I achieved 
                     the second fastest time at the inter-university competition held at UCLA.
+                    Linked below is the full GitHub repository containing the embedded firmware 
+                    for that year's micromouse, which was written in C and ran on an STM32F205
+                    microcontroller.
                   </p>
                   <div className="socials">
                         <a href="https://github.com/nnguyendinh/Micromouse-2022-2023">
@@ -56,13 +59,15 @@ function Micromouse() {
           </div>
           <div className="flex-container" id="right">
               <div className="flex-child">
-                  <p>This year, I plan to iterate on my design once more and compete again 
-                    in the local UCLA competition, as well as sign up for APEC, which is 
-                    the highest level Micromouse competition in the US. For this new 
-                    iteration I am experimenting with different motor-encoder combinations, 
-                    different peripherals, and a complete redesign of the PCB. Micromouse 
-                    has been such a fun and rewarding experience for me, and I am excited 
-                    to see how far I can push myself this year.
+                  <p>During my third and fourth year at UCLA, I served as a technical advisor for the 
+                    new leads that continued the program after me. I also continued to compete in the
+                    local competitions, where I placed second in both of these years. I also competed in 
+                    the Applied Power Electronics Conference (APEC) Micromouse competition, the highest
+                    level of Micromouse competition in the US. While my mouse at APEC did not perform as
+                    well as the other mice in the competition, it was really exciting to see the different
+                    designs and optimizations that these award winning micromousers had implemented.
+                    Overall, my experience with micromouse has been one of the most rewarding experiences 
+                    of my college career, and this will always be one of my favorite projects.
                   </p>
               </div>
               <div className="flex-child">

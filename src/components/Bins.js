@@ -26,7 +26,8 @@ function Bins() {
                     whenever a trash can was full, and they could use the web app to unlock and lock 
                     trash cans over wifi for proper maintenance. We built the hardware using Arduino 
                     IDE on an ESP32 microcontroller, and we built the web app using React, NodeJS, 
-                    and Firebase.
+                    and Firebase. Linked below is the full hackathon presentation detailing the project 
+                    and its implementation.
                   </p>
                   <div className="socials">
                         <a href="https://docs.google.com/presentation/d/1YEGli1kS9UJksuIp3AyJZpbd4qUiQKHC0WPS-4sNpAk/edit?usp=sharing">

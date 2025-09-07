@@ -15,14 +15,17 @@ function DAV() {
           <div className="flex-container">
               <div className="flex-child">
                   <h2> Overview </h2>
-                  <p>The digital audio visualizer is an ongoing project that utilizes a DE-10 Lite 
-                      FPGA as a digital signal processor. The main flow of the project is the FPGA 
-                      will receive audio inputs in real time through an external microphone, and then 
-                      it will display the resulting frequency spectrum on an external display. Audio 
-                      data samples are collected utilizing the onboard ADC of the DE-10 Lite, The 
-                      coded FFT processor takes in the audio data and calculates the 16 point radix 
-                      2 decimation in time FFT, over a period of four clock cycles. The output is the 
-                      corresponding frequency content, which is then visualized onto the VGA display. 
+                  <p>The digital audio visualizer is a personal project that utilizes a DE-10 Lite 
+                      FPGA as a digital signal processor. The FPGA receives audio inputs in real 
+                      time through an external microphone, and then it extracts the frequency content 
+                      of the incoming audio and displays it on an external VGA display in real time. Audio 
+                      data samples are collected utilizing the onboard ADC of the DE-10 Lite. The FPGA 
+                      is configured to take these audio samples and conduct a 32 point radix 2 decimation 
+                      in time FFT operation over a period of four clock cycles. The output is then 
+                      the corresponding frequency content, which is then visualized onto the VGA display. 
+                      The project is implemented using SystemVerilog and was simulated using QuestaSim. 
+                      Linked below is the full GitHub repository containing the project files,
+                      including the RTL design and testbenches used for simulation.
                   </p>
                   <div className="socials">
                         <a href="https://github.com/nnguyendinh/FPGA-Digital-Audio-Visualizer">

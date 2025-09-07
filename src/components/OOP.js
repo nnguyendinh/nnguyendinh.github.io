@@ -15,7 +15,7 @@ function OOP() {
           <div className="flex-container">
               <div className="flex-child">
                   <h2> Overview </h2>
-                  <p> A collaborative class honors project of mine was to fully design and simulate an 
+                  <p> A collaborative class honors project of mine at UCLA was to fully design and simulate an 
                     out-of-order, superscalar processor using systemVerilog. The processor was able to 
                     read in a file of binary encodings of RISC-V R-type, I-type, load, and store 
                     instructions. In order to allow for superscalar out-of-order execution of 
@@ -23,7 +23,9 @@ function OOP() {
                     table, the reservation station, the reorder buffer, and more. We simulated this 
                     design within QuestaSim to confirm a significant speedup compared to the example 
                     in-order processor given. Potential future goals include developing the modules to 
-                    be fully synthesizable such that we can run the processor on an FPGA. 
+                    be fully synthesizable such that we can run the processor on an FPGA. Linked below 
+                    is the full GitHub repository containing the project files, including the RTL design
+                    and testbenches used for simulation.
                   </p>
                   <div className="socials">
                         <a href="https://github.com/nnguyendinh/M116C-Honors">

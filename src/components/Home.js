@@ -48,7 +48,7 @@ function Home () {
                         <a href="mailto:nat.t.nguyendinh@gmail.com">
                             <EmailIcon/>
                         </a>
-                        <a href="https://drive.google.com/file/d/1ZxrKr2Fe3vRxkOPqDMyIJ7UJE8PNYpwD/view?usp=drive_link">
+                        <a href="https://drive.google.com/file/d/1QdFmUF7BC0oYsZH5MeJcuEF10Q_VafiH/view?usp=drive_link">
                             <DescriptionIcon/>
                         </a>
                     </div>
