@@ -20,11 +20,14 @@ p {
 html, body {
   margin: 0;
   padding: 0;
-  min-height: 100%;
-  background-color: #502e7e; /* matches your footer purple, the color that should show through */
-  overscroll-behavior-y: none; /* stops the white bounce flash at top/bottom */
+  height: 100%;
+  overflow: hidden;           /* the OS document root no longer scrolls/bounces */
+  background-color: #502e7e;
 }
 
 #root {
-  min-height: 100%;
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;  /* bounce is now contained inside #root, using your bg */
 }
