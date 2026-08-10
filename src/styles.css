@@ -16,3 +16,15 @@ p {
   font-weight: 500;
   font-size: large;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: #502e7e; /* matches your footer purple, the color that should show through */
+  overscroll-behavior-y: none; /* stops the white bounce flash at top/bottom */
+}
+
+#root {
+  min-height: 100%;
+}

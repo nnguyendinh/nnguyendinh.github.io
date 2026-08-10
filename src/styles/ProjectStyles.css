@@ -1,5 +1,5 @@
 :root {
-  --custom-min-height: calc(100vh - 170px);
+  --custom-min-height: calc(100dvh - 170px);
 }
 
 .projectDisplay {
