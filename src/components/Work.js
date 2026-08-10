@@ -6,13 +6,56 @@ import edg from "../images/edg.png";
 import keysight from "../images/keysight-beige.png";
 import syssarch from "../images/syssarch-beige.png";
 import microsoft from "../images/microsoft.png";
+import apple from "../images/apple.png"
+import micl from "../images/micl.png"
 
 function Work () {
 
     return (
     <div className="work"> 
         <h2> Work Experience</h2>
-        
+
+        <div className="flex-container" id="left">
+            <div className="flex-child">
+                <h3>Apple</h3>
+                <p> <b>System Integration Intern</b> <br/>
+                    <i>May 2026 - August 2026</i> <br/>
+                    <ul>
+                        <li>Conducted power, performance, and thermal studies on prototype 
+                            hardware to inform future HW/SW co-design</li>
+                        <li>Developed flexible automation to extract peak power and current 
+                            across a variety of devices and workload suites</li>
+                        <li>Optimized thermal workload characterization tools to remove 
+                            user bottlenecks and speed up validation by 5x</li>
+                    </ul>
+                </p>
+            </div>
+            <div className="flex-child">
+                <img src={apple} alt="Apple" className="image"/>
+            </div>
+        </div>
+        <div className="flex-container" id="right">
+            <div className="flex-child">
+                <img src={micl} alt="MICL" className="image"/>
+            </div>
+            <div className="flex-child">
+                <h3>Michigan Integrated Circuits Laboratory</h3>
+                <p> <b>Graduate Researcher</b> <br/>
+                    <i>March 2026 - Present</i> <br/>
+                    <ul>
+                        <li>Designed ultra-low power, high performace digital circuits 
+                            under Professor David Blaauw at University of Michigan</li>
+                        <li>Synthesized audio pre-processing pipeline RTL for ultra-low 
+                            power neural network based audio compression chips</li>
+                        <li>Designed folded radix-2 FFT engine, CORDIC, Mel-Filter banks, 
+                            and more while minimizing chip area and power</li>
+                        <li>Integrated leakage and switching power reduction techniques 
+                            to achieve µW scale power consumption across chip</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
         <div className="flex-container" id="left">
             <div className="flex-child">
                 <h3>Microsoft</h3>
@@ -21,10 +64,10 @@ function Work () {
                     <ul>
                         <li>Redesigned internal Windows crash dump analysis tools 
                             to optimize compute utilization and processing time</li>
-                        <li>Utilized MCP to create debugger-enabled LLM agent 
-                            capable of analyzing system hardware and diagnosing crashes</li>
                         <li>Implemented dynamic locking algorithms throughout the tooling 
                             codebase to enable multi-threaded execution</li>
+                        <li>Utilized MCP to create debugger-enabled LLM agent capable of 
+                            analyzing system hardware and diagnosing crashes</li>
                         <li>Achieved 10x speedup for crash dump analysis times through 
                             agentic automation and computational optimizations</li>
                     </ul>

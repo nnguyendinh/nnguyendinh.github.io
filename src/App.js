@@ -9,6 +9,7 @@ import EDRAM from "./components/EDRAM";
 import RCHuman from "./components/RCHuman";
 import Bins from "./components/Bins";
 import Adder from "./components/Adder";
+import Accelerator from "./components/Accelerator"
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import "./styles.css";
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/edram" element={<EDRAM />} />
           <Route path="/rc-human" element={<RCHuman />} />
           <Route path="/adder" element={<Adder />} />
+          <Route path="/accelerator" element={<Accelerator />} />
           <Route path="/digital-audio-visualizer" element={<DAV />} />
           <Route path="/risc-v-processor" element={<OOP />} />
           <Route path="/bruin-bins" element={<Bins />} />

@@ -3,40 +3,42 @@ import BackToMain from './BackToMain';
 import Projects from './Projects';
 import Footer from './Footer';
 import "../styles/ProjectStyles.css";
-import GitHubIcon from '@mui/icons-material/GitHub';
-import oop from "../images/OOP_crop.png";
+import DescriptionIcon from '@mui/icons-material/Description';
+import oop from "../images/472_arch.png";
 
 function OOP() {
   return (
     <div>
       <BackToMain/>
       <div className="projectDisplay">
-        <h1> RISC-V Out of Order Processor</h1>
+        <h1> Multithreaded Out of Order Processor</h1>
           <div className="flex-container">
               <div className="flex-child">
                   <h2> Overview </h2>
-                  <p> A collaborative class honors project of mine at UCLA was to fully design and simulate an 
-                    out-of-order, superscalar processor using systemVerilog. The processor was able to 
-                    read in a file of binary encodings of RISC-V R-type, I-type, load, and store 
-                    instructions. In order to allow for superscalar out-of-order execution of 
-                    instructions, we developed modules for multiple processor ALUs, a register alias 
-                    table, the reservation station, the reorder buffer, and more. We simulated this 
-                    design within QuestaSim to confirm a significant speedup compared to the example 
-                    in-order processor given. Potential future goals include developing the modules to 
-                    be fully synthesizable such that we can run the processor on an FPGA. Linked below 
-                    is the full GitHub repository containing the project files, including the RTL design
-                    and testbenches used for simulation.
+                  <p> If you know any electrical engineering major from the University of Michigan, they
+                    will know this as the infamous "EECS 470 Project". For those not in the know, this was 
+                    a collaborative class project where over the course of a semester, groups fully design 
+                    and synthesize and out-of-order, super scalar processor supporting the full RISC-V 
+                    instruction set with SystemVerilog. For our design, we implemented a 2-issue, 6-stage 
+                    processor based off of Intel's P6 architecture with simultaneous multi-threading (SMT). 
+                    While iteratively developing the modules, we developed various tcl scripts to streamline 
+                    the synthesis, simulation, and debugging process with the synopsys toolchain. In order to 
+                    optimize CPI and area, we experimented with many different branch predictors, structure 
+                    sizes, and cache configurations. Throughout the design process we also constantly reworked 
+                    and rearranged our logic to be able to get the most optimal performance post-synthesis. 
+                    Linked below is the project report if you want to learn more about the 
+                    different design decisions we made and our final product.
                   </p>
                   <div className="socials">
-                        <a href="https://github.com/nnguyendinh/M116C-Honors">
-                            <GitHubIcon/>   
+                        <a href="https://drive.google.com/file/d/18WoqQ-VbNjvQpDSy2Zsmy8OYFbKZVlhB/view?usp=sharing">
+                            <DescriptionIcon/>   
                         </a>
                   </div>
               </div>
               <div className="flex-child" id='right'>
                   <img src={oop} alt="OOP" className="image"/>
                   <h3>
-                    <b>Skills:</b> RTL Design, SystemVerilog, RISC-V, Computer Architecture, Quartus, QuestaSim
+                    <b>Skills:</b> RTL Design, SystemVerilog, RISC-V, Computer Architecture, VCS, Verdi, Tcl
                   </h3>
               </div>
           </div>

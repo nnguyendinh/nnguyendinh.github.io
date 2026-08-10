@@ -19,11 +19,11 @@ function Footer () {
             <a href="mailto:nat.t.nguyendinh@gmail.com">
                 <EmailIcon/>
             </a>
-            <a href="https://drive.google.com/file/d/1QdFmUF7BC0oYsZH5MeJcuEF10Q_VafiH/view?usp=drive_link">
+            <a href="https://drive.google.com/file/d/1nI0ruxZg6e4FQ4OcY5eOvU4Hz0Kq1o7y/view?usp=sharing">
                 <DescriptionIcon/>
             </a>
         </div>
-    <p> &copy; 2025 nnguyendinh.github.io</p>
+    <p> &copy; 2026 nnguyendinh.github.io</p>
     </div>
     );
 }

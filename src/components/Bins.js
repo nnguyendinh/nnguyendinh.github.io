@@ -3,7 +3,7 @@ import BackToMain from './BackToMain';
 import bins from "../images/bins.png";
 import Projects from './Projects';
 import Footer from './Footer';
-import DescriptionIcon from '@mui/icons-material/Description';
+import CoPresentIcon from '@mui/icons-material/CoPresent';
 import "../styles/ProjectStyles.css";
 
 function Bins() {
@@ -11,7 +11,7 @@ function Bins() {
     <div>
       <BackToMain/>
       <div className="projectDisplay">
-        <h1> FPGA Guitar Hero</h1>
+        <h1> Bruin Bins</h1>
           <div className="flex-container">
               <div className="flex-child">
                   <h2> Overview </h2>
@@ -31,7 +31,7 @@ function Bins() {
                   </p>
                   <div className="socials">
                         <a href="https://docs.google.com/presentation/d/1YEGli1kS9UJksuIp3AyJZpbd4qUiQKHC0WPS-4sNpAk/edit?usp=sharing">
-                            <DescriptionIcon/>   
+                            <CoPresentIcon/>   
                         </a>
                   </div>
               </div>

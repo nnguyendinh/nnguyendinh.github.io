@@ -3,7 +3,7 @@ import BackToMain from './BackToMain';
 import Projects from './Projects';
 import Footer from './Footer';
 import "../styles/ProjectStyles.css";
-import DescriptionIcon from '@mui/icons-material/Description';
+import CoPresentIcon from '@mui/icons-material/CoPresent';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import RC from "../images/RCHuman_crop.png";
 import TENS from "../images/TENS.png";
@@ -32,7 +32,7 @@ function RCHuman() {
                   </p>
                   <div className="socials">
                         <a href="https://docs.google.com/presentation/d/1XsR6Zvm-6H3zSP3aZwPjsEY8S99hFH0lc57g0lIQtnw/edit?usp=sharing">
-                            <DescriptionIcon/>   
+                            <CoPresentIcon/>   
                         </a>
                         <a href="https://www.youtube.com/watch?v=3AeRVm21ogo">
                             <YouTubeIcon/>
